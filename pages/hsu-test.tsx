@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { lintAndFix } from "../lib/hsuLint"; // import the checker you added
+import { lintAndFix } from "../lib/lib/hsuLint";
+
 
 export default function HsuTestPage() {
   const [input, setInput] = useState<string>(`THE ADB STRATEGIC INITIATIVE – DRAFT^1
